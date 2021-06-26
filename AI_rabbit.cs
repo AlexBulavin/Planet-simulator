@@ -203,6 +203,8 @@ public class AI_rabbit : MonoBehaviour
            case 11:
                 y = 0;
                 GameObject grass = null;
+                 //xGrass = i;//необходимо найти координаты ближайшей травы. Должны передать координаты кролика
+                 //yGrass = j;
                 if (Main.grass[xGrass, yGrass] == null)
                 {
                     grass = findGrass();
